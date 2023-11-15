@@ -4,8 +4,9 @@ import { PokemonContext } from '../context/Pokemoncontext';
 import logo from '../assets/Pokédex_logo.png'
 
 export const Navigation = () => {
-  const {numero} = useContext(PokemonContext)
-  console.log("🚀 ~ file: Navigation.jsx:8 ~ Navigation ~ numero:", numero)
+  const {number, pokemons} = useContext(PokemonContext)
+  console.log("🚀 ~ file: Navigation.jsx:8 ~ Navigation ~ pokemons:", pokemons)
+  console.log("🚀 ~ file: Navigation.jsx:8 ~ Navigation ~ number:", number)
 	// const { onInputChange, valueSearch, onResetForm } =
 		// useContext(PokemonContext);
 
